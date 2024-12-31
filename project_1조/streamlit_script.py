@@ -10,7 +10,7 @@ import numpy as np
 
 
 # 한글 폰트 설정
-font_path = '/System/Library/Fonts/Supplemental/AppleGothic.ttf'  # 사용자 환경에 맞게 경로 수정
+font_path = '/assets/fonts/AppleGothic.ttf'  # 사용자 환경에 맞게 경로 수정
 font_name = font_manager.FontProperties(fname=font_path).get_name()
 rc('font', family=font_name)
 
